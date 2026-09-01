@@ -1,6 +1,6 @@
 # 今夜も出勤、6人です。 — 現在の前提
 
-- 生成: 2026-09-01 17:51（自動生成。手で書き換えない）
+- 生成: 2026-09-01 20:42（自動生成。手で書き換えない）
 - フェーズ: **P0** / 制作モード: **REVIEW**
 - このファイルが**ChatGPTに渡す唯一の前提**。ここに無いことは「未確定」。
   会話の記憶や過去スレッドの内容で補わないでほしい。
@@ -46,9 +46,10 @@
 
 **次にやること**
 
-6人のキャラクターと世界観を「新規作成」として設計する承認を得る（HD-01）。
-※過去資産が回収不能のため、これは「復元」ではなく新規作成である。
-承認後 P1（世界観確定）→ P2（キャラ6人）へ。
+CHG_0001（6人の外見確定）の承認を得る。承認は APPROVALS.log への追記＝オーナーの手作業。
+併せて CHG_0001 §4 の確認3点（003と006の見分け／絵柄HD-04／006の正面パネル）に回答をもらう。
+承認後: canon/characters/CHAR_001〜006.yaml を作成し、画像を references/characters/ へ移す。
+その後 P1（世界観確定）→ P2（性格・口調・関係性・役割）へ。
 ChatGPTへの接続は BRIDGE 経由（CHATGPT_HANDOFF.md v2.0 §1 のURLを渡す）。
 渡す前に必ず `python tools/bridge_publish.py` で最新化する。
 
@@ -99,4 +100,4 @@ https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/rules/PRODUC
 
 ---
 
-最終更新 2026-09-01 17:51 ／ 生成元: SESSION_STATE.md ・ CONFIG.yaml ・ canon/
+最終更新 2026-09-01 20:42 ／ 生成元: SESSION_STATE.md ・ CONFIG.yaml ・ canon/
