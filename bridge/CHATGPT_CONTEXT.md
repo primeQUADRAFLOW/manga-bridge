@@ -1,6 +1,6 @@
 # キュウチャへの作業依頼（CHATGPT_CONTEXT）
 
-- 生成: 2026-09-02 19:41（自動生成）
+- 生成: 2026-09-02 19:54（自動生成）
 - 全体像は SNAPSHOT: https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md
 - **このファイルは「今回の作業」に必要な分だけ。** 全設定を毎回読む必要はない。
 
@@ -32,6 +32,10 @@
 **06 沙耶（ID 06・28歳）** のキャラクターシート **v3**。直すのは**髪だけ**。
 
 現在の沙耶: [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) ／ [シート](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png)
+
+> **画像はオーナーがこのチャットに直接アップします。**
+> 上のURLは「どれが正か」を確認するための索引です。生成の参照には、
+> アップされた `saya_sheet_v2.png` を使ってください（2026-09-02 キュウチャの指摘により明記）。
 
 ## 前回（v2）の結果 — 2勝2敗でした
 

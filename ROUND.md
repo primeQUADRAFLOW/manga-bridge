@@ -1,6 +1,6 @@
 # ROUND — キュウチャへの今回の依頼
 
-- 更新: 2026-09-02 19:41（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
+- 更新: 2026-09-02 19:54（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
 - 作品: 「今夜も出勤、6人です。」
 - 全体像: [SNAPSHOT.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md) ／ 画像索引: [ASSETS.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ASSETS.md)
 - 返し方: [RETURN.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/RETURN.md)
@@ -18,6 +18,11 @@
 
 **新しい顔を作らない。** 上の「顔」の画像がその人物の正。衣装・背景・ポーズ・表情が
 変わっても同一人物として描く。
+
+> **画像生成の参照には、オーナーがチャットにアップした画像を使ってください。**
+> 上のURLは「どれが現行か」を確かめるための索引です（URLの画像を生成の参照として
+> 直接渡せないことが 2026-09-02 に判明したため）。必要な画像が届いていなければ、
+> **推測で描かずに、どのファイルが要るかを名指しで要求してください。**
 
 ## 絶対に守ること
 
@@ -37,6 +42,10 @@
 **06 沙耶（ID 06・28歳）** のキャラクターシート **v3**。直すのは**髪だけ**。
 
 現在の沙耶: [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) ／ [シート](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png)
+
+> **画像はオーナーがこのチャットに直接アップします。**
+> 上のURLは「どれが正か」を確認するための索引です。生成の参照には、
+> アップされた `saya_sheet_v2.png` を使ってください（2026-09-02 キュウチャの指摘により明記）。
 
 ## 前回（v2）の結果 — 2勝2敗でした
 
@@ -126,4 +135,4 @@
 
 ---
 
-最終更新 2026-09-02 19:41 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`
+最終更新 2026-09-02 19:54 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`
