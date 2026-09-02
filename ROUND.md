@@ -1,29 +1,34 @@
-# キュウチャへの作業依頼（CHATGPT_CONTEXT）
+# ROUND — キュウチャへの今回の依頼
 
-- 生成: 2026-09-02 19:38（自動生成）
-- 全体像は SNAPSHOT: https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md
-- **このファイルは「今回の作業」に必要な分だけ。** 全設定を毎回読む必要はない。
+- 更新: 2026-09-02 19:38（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
+- 作品: 「今夜も出勤、6人です。」
+- 全体像: [SNAPSHOT.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md) ／ 画像索引: [ASSETS.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ASSETS.md)
+- 返し方: [RETURN.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/RETURN.md)
 
 ## 現在の6人（変更しない）
 
-| ID | 名前 | 年齢 | 髪／見分けの印 |
-| --- | --- | --- | --- |
-| 01 | あかり | 22 | 明るい茶・**ハーフアップ＋編み込み**（唯一のアップ系） |
-| 02 | しおり | 25 | **黒髪ストレート**（唯一） |
-| 03 | 優花 | 25 | ダークブラウン・ウェーブ・**前髪あり** |
-| 04 | りん | 22 | **ワインレッド**（唯一の赤紫） |
-| 05 | ほのか | 21 | **オレンジ〜赤茶**（唯一・最年少） |
-| 06 | 沙耶 | 28 | 明るい茶＋ハイライト・**前髪なし／かき上げ**（最年長） |
+| ID | 名前 | 参照画像 |
+|---|---|---|
+| 01 | あかり | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/01_akari/akari_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/01_akari/akari_sheet_v2.png) |
+| 02 | しおり | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/02_shiori/shiori_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/02_shiori/shiori_sheet_v2.png) |
+| 03 | 優花 | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/03_yuka/yuka_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/03_yuka/yuka_sheet_v2.png) |
+| 04 | りん | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/04_rin/rin_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/04_rin/rin_sheet_v2.png) |
+| 05 | ほのか | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/05_honoka/honoka_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/05_honoka/honoka_sheet_v2.png) |
+| 06 | 沙耶 | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png) |
 
-## 絶対に守ること（短縮版）
+**新しい顔を作らない。** 上の「顔」の画像がその人物の正。衣装・背景・ポーズ・表情が
+変わっても同一人物として描く。
 
-1. **新しい顔を作らない。** 各キャラの顔マスターを参照し、同一人物として描く
-2. 衣装を変えるときは衣装だけ、表情だけなら表情だけ、背景だけなら背景だけを変える
+## 絶対に守ること
+
+1. 顔を再設計しない（各キャラの顔マスターを見る）
+2. 変更を頼まれた要素だけを変える（衣装だけ／表情だけ／髪だけ）
 3. **禁止名**: まお / れい / ひまり / とき / ひな / みずき / **みさき・美咲**
 4. **ほのかの額に何も置かない**（塊・突起・飾り・ほくろ状の異物）
-5. キャラクターシートは白系のシンプル衣装。画像内の文字は **ID・名前・年齢のみ**
+5. シートは白系のシンプル衣装。画像内の文字は **ID・名前・年齢のみ**
 6. 絵柄は**実写に近いリアリティのある実写漫画表現**
-7. **そちらで設定を「確定」しない。** 確定はオーナーの承認後にこちらのファイルへ書く
+7. **そちらで設定を「確定」しない。** 確定はオーナー承認後にこちらのファイルへ書く
+8. セリフの文字は画像に焼き込まない（日本語が崩れるため、文字は後工程で載せる）
 
 ---
 
@@ -121,8 +126,4 @@
 
 ---
 
-## 返し方
-
-- 画像は**その場でダウンロードできる形**で出す（オーナーが所定のフォルダへ入れて取り込む）
-- 設定・文章は `bridge/CHATGPT_INBOX.md` の形式で返す（散文でまとめない）
-- **セリフの文字は画像に焼き込まない**（日本語が崩れるため、文字は後工程で載せる）
+最終更新 2026-09-02 19:38 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`

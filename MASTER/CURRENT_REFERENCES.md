@@ -14,14 +14,30 @@
 
 ## 2. 個別キャラクターシート（3パネル・白衣装）
 
-| ID | 名前 | シート | 顔（切り出し・最優先参照） |
+**現行は `_v2`（帯統一版）。** 2026-09-02 にオーナー承認（HD-08 / HD-09 / HD-10）で更新した。
+
+| ID | 名前 | 現行シート（v2） | 顔マスター（v1のまま・最優先参照） |
 |---|---|---|---|
-| 01 | あかり | `assets/characters/01_akari/character_sheet/akari_sheet_v1.png` | `assets/characters/01_akari/master_face/akari_face_v1.png` |
-| 02 | しおり | `assets/characters/02_shiori/character_sheet/shiori_sheet_v1.png` | `assets/characters/02_shiori/master_face/shiori_face_v1.png` |
-| 03 | 優花 | `assets/characters/03_yuka/character_sheet/yuka_sheet_v1.png` | `assets/characters/03_yuka/master_face/yuka_face_v1.png` |
-| 04 | りん | `assets/characters/04_rin/character_sheet/rin_sheet_v1.png` | `assets/characters/04_rin/master_face/rin_face_v1.png` |
-| 05 | ほのか | `assets/characters/05_honoka/character_sheet/honoka_sheet_v1.png` | `assets/characters/05_honoka/master_face/honoka_face_v1.png` |
-| 06 | 沙耶 | `assets/characters/06_saya/character_sheet/saya_sheet_v1.png` ⚠**要修正** | `assets/characters/06_saya/master_face/saya_face_v1.png` |
+| 01 | あかり | `assets/characters/01_akari/character_sheet/akari_sheet_v2.png` | `assets/characters/01_akari/master_face/akari_face_v1.png` |
+| 02 | しおり | `assets/characters/02_shiori/character_sheet/shiori_sheet_v2.png` | `assets/characters/02_shiori/master_face/shiori_face_v1.png` |
+| 03 | 優花 | `assets/characters/03_yuka/character_sheet/yuka_sheet_v2.png` | `assets/characters/03_yuka/master_face/yuka_face_v1.png` |
+| 04 | りん | `assets/characters/04_rin/character_sheet/rin_sheet_v2.png` | `assets/characters/04_rin/master_face/rin_face_v1.png` |
+| 05 | ほのか | `assets/characters/05_honoka/character_sheet/honoka_sheet_v2.png` | `assets/characters/05_honoka/master_face/honoka_face_v1.png` |
+| 06 | 沙耶 | `assets/characters/06_saya/character_sheet/saya_sheet_v2.png` | `assets/characters/06_saya/master_face/saya_face_v1.png` |
+
+### v1 → v2 で何が変わったか
+
+- **01〜05**: 絵は v1 のまま。**上下の帯だけ**を描き直して6枚の形式をそろえた
+  （ID表記は2桁に統一＝`MASTER/CHARACTER_INDEX.md` と一致させた）。
+  再生成は `python tools/rebuild_bands.py`
+- **06 沙耶**: 絵そのものがキュウチャの修正版に差し替わった（**左パネルの顔を隠した**）＋帯統一
+- **顔マスターは6人とも v1 のまま据え置き**（承認 HD-09）。沙耶 v2 の顔は v1 と同一人物であり、
+  v1 の顔アップのほうが正面に近く、固定資料として適するため切り出し直さない
+
+### 06 沙耶に残っている宿題
+
+髪色（**明るいままくすませる**＝アッシュ寄り）と**完全なかき上げ**は v2 でも未達。
+round2 で再依頼中（`bridge/REPLY_TO_CHATGPT.md` §3）。**顔は変えない。**
 
 `*_face_v1.png` は、各シートの右パネル（顔アップ）をピックが自動切り出ししたもの。
 **個別生成時の顔の最優先参照はこれ。**
@@ -32,8 +48,10 @@
 |---|---|
 | `assets/master/OLD6_sheet_forbidden_names_ARCHIVE.png` | 旧版6人シート。**禁止名（美咲/紫/れい）を含む。** 名前の出典にしない |
 | `assets/characters/01_akari/rejected/akari_sheet_altdesign_notselected.png` | あかりのシート別デザイン案。オーナーがINBOXに入れなかった＝未採用 |
+| `assets/characters/0X_*/character_sheet/*_sheet_v1.png` | 6枚のシート v1。帯が不統一・06は左パネルの顔が出ている。**現行ではない** |
+| `assets/characters/06_saya/character_sheet/saya_sheet_v2_source.png` | 沙耶 v2 の元画像（帯未処理）。再生成の入力 |
 
 ## 4. 台帳との対応
 
-すべて `management/ASSET_INVENTORY.md` に Asset ID 付きで登録済み（IMG_001〜010）。
+すべて `management/ASSET_INVENTORY.md` に Asset ID 付きで登録済み（IMG_001〜018 / FACE_001〜006）。
 **台帳に載っていない制作物は「存在しない」ものとして扱う。**

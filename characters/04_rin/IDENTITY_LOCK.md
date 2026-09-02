@@ -4,7 +4,7 @@
 「新しいシーンだから新しい顔を作る」は禁止。「衣装変更＝人物変更」ではない。
 
 - 顔の最優先参照: `assets/characters/04_rin/master_face/rin_face_v1.png`
-- 全身・体型の参照: `assets/characters/04_rin/character_sheet/rin_sheet_v1.png`
+- 全身・体型の参照: `assets/characters/04_rin/character_sheet/rin_sheet_v2.png`
 - この記述は上記マスター画像から**観察して**書いたもの。マスター画像と食い違ったら**画像が正**。
 
 ## 固定する特徴
