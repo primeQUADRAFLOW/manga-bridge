@@ -1,6 +1,6 @@
 # ROUND — キュウチャへの今回の依頼
 
-- 更新: 2026-09-02 21:16（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
+- 更新: 2026-09-02 21:17（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
 - 作品: 「今夜も出勤、6人です。」
 - 全体像: [SNAPSHOT.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md) ／ 画像索引: [ASSETS.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ASSETS.md)
 - 返し方: [RETURN.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/RETURN.md)
@@ -162,4 +162,4 @@
 
 ---
 
-最終更新 2026-09-02 21:16 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`
+最終更新 2026-09-02 21:17 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`

@@ -1,6 +1,6 @@
 # キュウチャへの作業依頼（CHATGPT_CONTEXT）
 
-- 生成: 2026-09-02 21:16（自動生成）
+- 生成: 2026-09-02 21:17（自動生成）
 - 全体像は SNAPSHOT: https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md
 - **このファイルは「今回の作業」に必要な分だけ。** 全設定を毎回読む必要はない。
 
