@@ -1,6 +1,6 @@
 # ROUND — キュウチャへの今回の依頼
 
-- 更新: 2026-09-02 21:17（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
+- 更新: 2026-09-02 21:47（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
 - 作品: 「今夜も出勤、6人です。」
 - 全体像: [SNAPSHOT.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md) ／ 画像索引: [ASSETS.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ASSETS.md)
 - 返し方: [RETURN.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/RETURN.md)
@@ -14,7 +14,7 @@
 | 03 | 優花 | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/03_yuka/yuka_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/03_yuka/yuka_sheet_v2.png) |
 | 04 | りん | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/04_rin/rin_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/04_rin/rin_sheet_v2.png) |
 | 05 | ほのか | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/05_honoka/honoka_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/05_honoka/honoka_sheet_v2.png) |
-| 06 | 沙耶 | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png) |
+| 06 | 沙耶 | [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) / [全身](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v3.png) |
 
 **新しい顔を作らない。** 上の「顔」の画像がその人物の正。衣装・背景・ポーズ・表情が
 変わっても同一人物として描く。
@@ -162,4 +162,4 @@
 
 ---
 
-最終更新 2026-09-02 21:17 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`
+最終更新 2026-09-02 21:47 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`

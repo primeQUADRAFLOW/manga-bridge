@@ -16,14 +16,14 @@
 
 **現行は `_v2`（帯統一版）。** 2026-09-02 にオーナー承認（HD-08 / HD-09 / HD-10）で更新した。
 
-| ID | 名前 | 現行シート（v2） | 顔マスター（v1のまま・最優先参照） |
+| ID | 名前 | 現行シート | 顔マスター（最優先参照） |
 |---|---|---|---|
 | 01 | あかり | `assets/characters/01_akari/character_sheet/akari_sheet_v2.png` | `assets/characters/01_akari/master_face/akari_face_v1.png` |
 | 02 | しおり | `assets/characters/02_shiori/character_sheet/shiori_sheet_v2.png` | `assets/characters/02_shiori/master_face/shiori_face_v1.png` |
 | 03 | 優花 | `assets/characters/03_yuka/character_sheet/yuka_sheet_v2.png` | `assets/characters/03_yuka/master_face/yuka_face_v1.png` |
 | 04 | りん | `assets/characters/04_rin/character_sheet/rin_sheet_v2.png` | `assets/characters/04_rin/master_face/rin_face_v1.png` |
 | 05 | ほのか | `assets/characters/05_honoka/character_sheet/honoka_sheet_v2.png` | `assets/characters/05_honoka/master_face/honoka_face_v1.png` |
-| 06 | 沙耶 | `assets/characters/06_saya/character_sheet/saya_sheet_v2.png` | `assets/characters/06_saya/master_face/saya_face_v1.png` |
+| 06 | 沙耶 | `assets/characters/06_saya/character_sheet/saya_sheet_v3.png` | `assets/characters/06_saya/master_face/saya_face_v2.png` ← **正面** |
 
 ### v1 → v2 で何が変わったか
 
@@ -34,10 +34,14 @@
 - **顔マスターは6人とも v1 のまま据え置き**（承認 HD-09）。沙耶 v2 の顔は v1 と同一人物であり、
   v1 の顔アップのほうが正面に近く、固定資料として適するため切り出し直さない
 
-### 06 沙耶に残っている宿題
+### 06 沙耶は v3 で完了（2026-09-02）
 
-髪色（**明るいままくすませる**＝アッシュ寄り）と**完全なかき上げ**は v2 でも未達。
-round2 で再依頼中（`bridge/REPLY_TO_CHATGPT.md` §3）。**顔は変えない。**
+髪色（明るいままアッシュ化: 彩度0.533→0.352／明度0.312→0.389）・完全なかき上げ・
+右パネル正面化・胸元を閉じる、すべて達成。顔は同一人物のまま。実測は `bridge/REVIEW_SAYA_v3.md`。
+**顔マスターも v3 の正面に差し替えた**（06だけ `_face_v2`。他5人は `_face_v1` のまま）。
+
+**正面同士でないと顔の同一性は判定できない。** 斜めのシートしか無い5人については、
+`assets/master/MASTER6_profile_cards.png` の各カード中央にある**正面の小パネル**が比較資料になる。
 
 `*_face_v1.png` は、各シートの右パネル（顔アップ）をピックが自動切り出ししたもの。
 **個別生成時の顔の最優先参照はこれ。**
