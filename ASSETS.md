@@ -1,6 +1,6 @@
 # ASSETS — 参照してよい画像の索引
 
-- 生成: 2026-09-03 07:44（自動生成。手で書き換えない）
+- 生成: 2026-09-03 20:46（自動生成。手で書き換えない）
 - **ここに載っている画像だけが現行。** 載っていないものは履歴・ボツ・未承認。
 - シート = 3パネル（左:正面全身／中央:背面全身／右:顔アップ）。体型と髪の長さの固定資料。
 - 顔マスター = シート右パネルの切り出し。**個別生成のとき顔はこれを最優先で見る。**
@@ -30,5 +30,14 @@
 06 沙耶 顔  https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png
 06 沙耶 全身 https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v3.png
 ```
+
+## 参照シート（オーナーがチャットにアップする1枚）
+
+**キュウチャはURLの画像を生成の参照には使えない**（2026-09-02 実測）。
+参照として効くのはチャットにアップされた画像だけなので、オーナーが下のどれか1枚を
+**スレッドの最初に1回だけ**アップする。以降そのスレッドでは追加アップは不要。
+
+- [REF_ALL.png](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/ref_sheets/REF_ALL.png) … 6人全員（スレッド開始時）
+- [REF_EP001.png](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/ref_sheets/REF_EP001.png) … EP001 に出る人だけ
 
 作中の人物・店舗はすべて架空。実在の人物・団体・店舗とは関係ありません。

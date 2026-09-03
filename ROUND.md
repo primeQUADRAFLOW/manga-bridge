@@ -1,6 +1,6 @@
 # ROUND — キュウチャへの今回の依頼
 
-- 更新: 2026-09-03 07:44（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
+- 更新: 2026-09-03 20:46（自動生成。**このページのURLは変わらない。** 毎回ここを見れば最新）
 - 作品: 「今夜も出勤、6人です。」
 - 全体像: [SNAPSHOT.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md) ／ 画像索引: [ASSETS.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ASSETS.md)
 - 返し方: [RETURN.md](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/RETURN.md)
@@ -70,10 +70,9 @@
 
 現在の沙耶: [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) ／ [シート](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png)
 
-> **参照画像はオーナーがこのチャットに `saya_sheet_v2.png` を直接アップします。**
-> 上のURLは「どれが現行版か」を確認するための索引です。
-> 前回、参照が無いときに推測で描かずに止まって要求してくれたのは**正しい判断**でした。
-> これからもそうしてください。アップが届いていたら、追加説明を待たずにそのまま v3 に入って大丈夫です。
+> **参照画像は、このスレッドの最初に1枚だけアップされています**（6人の顔をまとめた参照シート）。
+> URLの画像は生成の参照に使えないと分かったので、**アップされたその1枚を参照**してください。
+> 必要な人が写っていなければ、推測で描かずに**誰の顔が要るかを名指しで要求**してください。
 
 ## 前回（v2）の結果 — 2勝2敗でした
 
@@ -162,4 +161,4 @@
 
 ---
 
-最終更新 2026-09-03 07:44 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`
+最終更新 2026-09-03 20:46 ／ 生成元: `bridge/_task.md` ＋ `MASTER/`

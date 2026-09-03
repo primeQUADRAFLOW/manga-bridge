@@ -1,6 +1,6 @@
 # キュウチャへの作業依頼（CHATGPT_CONTEXT）
 
-- 生成: 2026-09-03 07:44（自動生成）
+- 生成: 2026-09-03 20:46（自動生成）
 - 全体像は SNAPSHOT: https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/SNAPSHOT.md
 - **このファイルは「今回の作業」に必要な分だけ。** 全設定を毎回読む必要はない。
 
@@ -60,10 +60,9 @@
 
 現在の沙耶: [顔](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_face_v1.png) ／ [シート](https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/assets/06_saya/saya_sheet_v2.png)
 
-> **参照画像はオーナーがこのチャットに `saya_sheet_v2.png` を直接アップします。**
-> 上のURLは「どれが現行版か」を確認するための索引です。
-> 前回、参照が無いときに推測で描かずに止まって要求してくれたのは**正しい判断**でした。
-> これからもそうしてください。アップが届いていたら、追加説明を待たずにそのまま v3 に入って大丈夫です。
+> **参照画像は、このスレッドの最初に1枚だけアップされています**（6人の顔をまとめた参照シート）。
+> URLの画像は生成の参照に使えないと分かったので、**アップされたその1枚を参照**してください。
+> 必要な人が写っていなければ、推測で描かずに**誰の顔が要るかを名指しで要求**してください。
 
 ## 前回（v2）の結果 — 2勝2敗でした
 
