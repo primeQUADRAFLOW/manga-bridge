@@ -23,7 +23,7 @@ https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ROUND.md
 
 | 向き | 経路 | 自動/手動 |
 |---|---|---|
-| ピック → キュウチャ | `bridge/_task.md` を書く → `python tools/bridge_publish.py` → ROUND.md が更新される | **全自動** |
+| ピック → キュウチャ | `bridge/[[_task]]` を書く → `python tools/bridge_publish.py` → ROUND.md が更新される | **全自動** |
 | キュウチャ → ピック | キュウチャの出力をオーナーが**受け取りフォルダ**へ入れる → `python tools/inbox_ingest.py` | 半自動（1回だけ人手） |
 
 キュウチャ側から GitHub へ書き込む手段は無いため、**戻りだけはオーナーが1回運ぶ**
@@ -32,11 +32,11 @@ https://raw.githubusercontent.com/primeQUADRAFLOW/manga-bridge/main/ROUND.md
 
 ## 過去のやりとり
 
-- round1（2026-09-01・沙耶シート修正の依頼）: `bridge/_archive/REPLY_20260901_round1.md`
-- 受領と判定の記録: `bridge/CHATGPT_INBOX.md` ／ `management/COLLABORATION_LOG.md`
-- v2 の検証（実測値つき）: `bridge/REVIEW_SAYA_v2.md`
+- round1（2026-09-01・沙耶シート修正の依頼）: `bridge/_archive/[[REPLY_20260901_round1]]`
+- 受領と判定の記録: `bridge/[[CHATGPT_INBOX]]` ／ `management/[[COLLABORATION_LOG]]`
+- v2 の検証（実測値つき）: `bridge/[[REVIEW_SAYA_v2]]`
 
 ## 今回の依頼の中身をここで読みたいとき
 
-正本は `bridge/_task.md`。**編集するのもそこだけ。**
+正本は `bridge/[[_task]]`。**編集するのもそこだけ。**
 このファイルや ROUND.md を直接書き換えても、次の publish で上書きされる。

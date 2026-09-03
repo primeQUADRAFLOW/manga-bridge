@@ -1,4 +1,4 @@
-# PROJECT STATE — 現在どこまで決まっているか
+# PROJECT [[STATE]] — 現在どこまで決まっているか
 
 - 更新: 2026-09-02
 - 作品: **「今夜も出勤、6人です。」**（タイトル確定・変更禁止）
@@ -23,17 +23,17 @@ SNSで長期連載するオリジナル漫画。**キャバクラあるある／
 | 項目 | 状態 |
 |---|---|
 | タイトル | ✅ 確定 |
-| 6人の ID・名前・年齢 | ✅ 確定（`CHARACTER_INDEX.md`） |
+| 6人の ID・名前・年齢 | ✅ 確定（`[[CHARACTER_INDEX]]`） |
 | 6人の顔 | ✅ 確定（集合マスター ＋ 個別シート） |
 | 個別キャラクターシート | ✅ 6枚とも作成済み・**現行は v2（帯統一版）**。06 は髪だけ v3 で追い込み中 |
-| 顔の一貫性ルール | ✅ 確定（`IDENTITY_RULES.md`） |
-| 絵柄 | ✅ **実写漫画表現**（`VISUAL_STYLE.md`） |
-| 使用禁止名 | ✅ 確定（`FORBIDDEN_NAMES.md`） |
+| 顔の一貫性ルール | ✅ 確定（`[[IDENTITY_RULES]]`） |
+| 絵柄 | ✅ **実写漫画表現**（`[[VISUAL_STYLE]]`） |
+| 使用禁止名 | ✅ 確定（`[[FORBIDDEN_NAMES]]`） |
 | 舞台（店） | ✅ Club LUXE（架空・中洲） |
-| **6人の役割枠と割り当て** | ✅ 確定（`canon/series/ROLE_FRAMES.md`） |
-| **6人の性格・口調・関係性** | ✅ 確定（各 `characters/0X_*/CHARACTER.md`） |
+| **6人の役割枠と割り当て** | ✅ 確定（`canon/series/[[ROLE_FRAMES]]`） |
+| **6人の性格・口調・関係性** | ✅ 確定（各 `characters/0X_*/[[CHARACTER]]`） |
 | **主人公の形** | ✅ **1人主人公＋5人の群像。主人公＝05 ほのか** |
-| **Season1 の骨格・到達点** | ✅ 確定（`canon/series/SEASON1.md`・全12話） |
+| **Season1 の骨格・到達点** | ✅ 確定（`canon/series/[[SEASON1]]`・全12話） |
 | **第1話** | ✅ プロット・脚本・コマ割りまで完了（`episodes/EP001/`） |
 
 ## 確定していないこと
@@ -46,7 +46,7 @@ SNSで長期連載するオリジナル漫画。**キャバクラあるある／
 | 第2話以降のプロット・脚本 | ❌ 未着手（EP001 のみ完了） |
 | セリフの入れ方（焼き込み or 後載せ） | ❌ 未確定（現行仕様は後載せ） |
 | 主戦場のSNS | ❌ 未確定 |
-| git identity の分離 | ❌ 未確定（`management/DECISIONS.md` D-003） |
+| git identity の分離 | ❌ 未確定（`management/[[DECISIONS]]` D-003） |
 
 ## 次の作業
 
@@ -71,8 +71,8 @@ SNSで長期連載するオリジナル漫画。**キャバクラあるある／
 
 ```
 SNAPSHOT.md
-  → MASTER/PROJECT_STATE.md（このファイル）
-  → MASTER/CHARACTER_INDEX.md
-  → 必要な characters/0X_*/CHARACTER.md
-  → 必要な characters/0X_*/IDENTITY_LOCK.md
+  → MASTER/[[PROJECT_STATE]]（このファイル）
+  → MASTER/[[CHARACTER_INDEX]]
+  → 必要な characters/0X_*/[[CHARACTER]]
+  → 必要な characters/0X_*/[[IDENTITY_LOCK]]
 ```
