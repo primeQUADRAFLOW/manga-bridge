@@ -31,7 +31,7 @@
 
 **読者が入る扉。** 店のルール・専門用語・人間関係を、説明台詞にせず自然に引き出す。
 
-> 枠は `canon/series/ROLE_FRAMES.md` が正本。**枠と性格は別レイヤー**で管理する
+> 枠は `canon/series/[[ROLE_FRAMES]]` が正本。**枠と性格は別レイヤー**で管理する
 > （枠は変えず、性格だけを調整できるようにするため）。
 
 ## 性格 — 確定
@@ -71,5 +71,5 @@
 
 - 顔（最優先）: `assets/characters/05_honoka/master_face/honoka_face_v1.png`
 - キャラクターシート: `assets/characters/05_honoka/character_sheet/honoka_sheet_v2.png`
-- 顔の再現ルール: `characters/05_honoka/IDENTITY_LOCK.md`
-- Season1 の骨格: `canon/series/SEASON1.md`
+- 顔の再現ルール: `characters/05_honoka/[[IDENTITY_LOCK]]`
+- Season1 の骨格: `canon/series/[[SEASON1]]`
